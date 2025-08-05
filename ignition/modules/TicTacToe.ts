@@ -7,7 +7,7 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const MarketpulseModule = buildModule("MarketpulseModule", (m) => {
-  const MarketpulseContract = m.contract("Marketpulse", []);
+  const MarketpulseContract = m.contract("TicTacToe", []);
 
   m.call(MarketpulseContract, "ping", []);
 
